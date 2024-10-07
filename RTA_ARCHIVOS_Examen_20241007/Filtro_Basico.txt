@@ -1,0 +1,5 @@
+Información de la Memoria RAM Total:
+1963.77 MB
+
+Fabricante del Chassis:
+Oracle Corporation

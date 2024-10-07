@@ -1,0 +1,5 @@
+Filtro Avanzado
+Mi IP Pública es: 181.46.136.2
+Mi usuario es: vagrant
+El Hash de mi usuario es: 1000
+La URL de mi repositorio es: https://github.com/Mateogarcia666/UTNFRA_SO_1P2C_2024_Garcia_Mateo.git
