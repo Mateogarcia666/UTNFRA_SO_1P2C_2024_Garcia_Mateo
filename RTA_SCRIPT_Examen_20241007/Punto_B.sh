@@ -53,26 +53,26 @@ sudo mkfs  -t ext4 /dev/sdc8
 sudo mkfs  -t ext4 /dev/sdc9
 sudo mkfs  -t ext4 /dev/sdc10
 sudo mkfs  -t ext4 /dev/sdc11
-sudo mount /dev/sdc1 /Examenes-UTN/alumno_1/parcial_1
-sudo mount /dev/sdc2 /Examenes-UTN/alumno_1/parcial_2
-sudo mount /dev/sdc3 /Examenes-UTN/alumno_1/parcial_3
-sudo mount /dev/sdc5 /Examenes-UTN/alumno_2/parcial_1
-sudo mount /dev/sdc6 /Examenes-UTN/alumno_2/parcial_2
-sudo mount /dev/sdc7 /Examenes-UTN/alumno_2/parcial_3
-sudo mount /dev/sdc8 /Examenes-UTN/alumno_3/parcial_1
-sudo mount /dev/sdc9 /Examenes-UTN/alumno_3/parcial_2
-sudo mount /dev/sdc10 /Examenes-UTN/alumno_3/parcial_3
+sudo mount /dev/sdc1 /Examenes-UTN/alumno_1/parcial1
+sudo mount /dev/sdc2 /Examenes-UTN/alumno_1/parcial2
+sudo mount /dev/sdc3 /Examenes-UTN/alumno_1/parcial3
+sudo mount /dev/sdc5 /Examenes-UTN/alumno_2/parcial1
+sudo mount /dev/sdc6 /Examenes-UTN/alumno_2/parcial2
+sudo mount /dev/sdc7 /Examenes-UTN/alumno_2/parcial3
+sudo mount /dev/sdc8 /Examenes-UTN/alumno_3/parcial1
+sudo mount /dev/sdc9 /Examenes-UTN/alumno_3/parcial2
+sudo mount /dev/sdc10 /Examenes-UTN/alumno_3/parcial3
 sudo mount /dev/sdc11 /Examenes-UTN/profesores
 
-echo "/dev/sdc1 /Examenes-UTN/alumno_1/parcial_1  ext4 default 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc2 /Examenes-UTN/alumno_1/parcial_2  ext4 default 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc3 /Examenes-UTN/alumno_1/parcial_3  ext4 default 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc5 /Examenes-UTN/alumno_2/parcial_1  ext4 default 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc6 /Examenes-UTN/alumno_2/parcial_2  ext4 default 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc7 /Examenes-UTN/alumno_2/parcial_3  ext4 default 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc8 /Examenes-UTN/alumno_3/parcial_1  ext4 default 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc9 /Examenes-UTN/alumno_3/parcial_2  ext4 default 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc10 /Examenes-UTN/alumno_3/parcial_3  ext4 default 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc1 /Examenes-UTN/alumno_1/parcial1  ext4 default 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc2 /Examenes-UTN/alumno_1/parcial2  ext4 default 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc3 /Examenes-UTN/alumno_1/parcial3  ext4 default 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc5 /Examenes-UTN/alumno_2/parcial1  ext4 default 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc6 /Examenes-UTN/alumno_2/parcial2  ext4 default 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc7 /Examenes-UTN/alumno_2/parcial3  ext4 default 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc8 /Examenes-UTN/alumno_3/parcial1  ext4 default 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc9 /Examenes-UTN/alumno_3/parcial2  ext4 default 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc10 /Examenes-UTN/alumno_3/parcial3  ext4 default 0 0" | sudo tee -a /etc/fstab
 echo "/dev/sdc11 /Examenes-UTN/profesores  ext4 default 0 0" | sudo tee -a /etc/fstab
 sudo mount -a
 sudo cat /etc/fstab
